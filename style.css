@@ -1,0 +1,76 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+main{
+  display: flex;
+  justify-content: center ;
+  align-items: center ;
+  min-height: 100vh
+}
+
+.container{
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: .5rem;
+  /* align-items: center; */
+}
+
+/* .container > div{
+  background: indianred;
+} */
+
+.container .sec-1, .container .sec-2{
+  padding: 3px;
+}
+
+.container .sec-1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.sec-1 > div, .sec-2 > div{
+  background: yellowgreen;  
+  min-height: 200px;
+  height: 100%;
+  border-radius: 10px;
+  padding: 0.8rem 1rem;
+}
+
+.sec-1 .one{
+  grid-column: 1/3;
+  grid-row: 1;
+}
+
+.sec-1 .four{
+  grid-column: 2 / 4;
+}
+
+.one .user{
+  display: flex
+}
+
+
+@media screen and (max-width: 425px){
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container .sec-1{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container .sec-1, .container .sec-2{
+  height: max-content;
+}
+
+.sec-1 > div, .sec-2 > div{
+  padding: 1.5rem;
+}
+}
