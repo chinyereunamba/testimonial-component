@@ -7,12 +7,15 @@
   font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
+body{
+    background: hsl(210, 46%, 95%);
+}
 
 main{
   display: flex;
   justify-content: center ;
   align-items: center ;
-  min-height: 100vh
+  min-height: 100vh;
 }
 
 .container{
@@ -38,7 +41,7 @@ main{
 }
 
 .sec-1 > div, .sec-2 > div{
-  background: yellowgreen;  
+  /* background: yellowgreen; */  
   min-height: 200px;
   height: 100%;
   border-radius: 10px;
@@ -54,6 +57,27 @@ main{
   grid-column: 2 / 4;
 }
 
+.one{
+  background: hsl(263, 55%, 52%);
+}
+
+.two{
+  background: hsl(217, 19%, 35%);
+}
+.three, .five{
+  background: hsl(0, 0%, 100%)
+}
+.four{
+  background: hsl(219, 29%, 14%);
+}
+
+.one, .two, .four {
+  color: hsl(0, 0%, 100%);
+}
+
+.three, .five{
+  color: hsl(217, 19%, 35%);
+}
 .one .user{
   display: flex
 }
@@ -62,6 +86,35 @@ main{
   display: flex;
   align-items: center;
   gap: 1rem;
+}
+
+.user .avatar img{
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+}
+.user .name p:first-child{
+  font-weight: 600
+}
+
+.user .name p:nth-child(2){
+  font-size: .9rem;
+  font-weight: 500;
+  color: hsla(0, 0%, 100%, .5)
+}
+
+.three .name p:nth-child(2), .five .name p:nth-child(2){
+  color: hsla(217, 19%, 35%, .5);
+}
+
+.content{
+  margin: 1rem auto;
+}
+
+.content h3{
+  padding: .8rem 0;
+  font-size: 1.3rem;
+  font-weight: 600;
 }
 
 @media screen and (max-width: 425px){
@@ -82,3 +135,6 @@ main{
   padding: 1.5rem;
 }
 }
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
