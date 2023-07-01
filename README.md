@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/chinyereunamba/testimonial-component)
-- Live Site URL: [View site](https://earnest-mermaid-82283d.netlify.app/)
+- Live Site URL: [View site](https://earnest-82283d.netlify.app/)
 
 ## My process
 
