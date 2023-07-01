@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/chinyereunamba/testimonial-component)
-- Live Site URL: [Add live site URL here](https://earnest-mermaid-82283d.netlify.app/)
+- Solution URL: [Github](https://github.com/chinyereunamba/testimonial-component)
+- Live Site URL: [View site](https://earnest-mermaid-82283d.netlify.app/)
 
 ## My process
 
@@ -57,5 +57,3 @@ I learned to CSS Grid. I usually stick to CSS Flexbox but the Grid Layout is als
 
 I would like to thank Scrimba and Per Harald Borgen for creating the CSS Grid Course. He helped me understand CSS Grid. 
 They have tutorials on frontend development. 
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
