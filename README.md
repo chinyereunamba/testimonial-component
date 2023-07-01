@@ -55,5 +55,5 @@ I learned to CSS Grid. I usually stick to CSS Flexbox but the Grid Layout is als
 
 ## Acknowledgments
 
-I would like to thank Scrimba and Per Harald Borgen for creating the CSS Grid Course. He helped me understand CSS Grid. 
+I would like to thank [Scrimba](https://scrimba.com) and Per Harald Borgen for creating the CSS Grid Course. He helped me understand CSS Grid. 
 They have tutorials on frontend development. 
